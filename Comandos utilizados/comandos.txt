@@ -1,0 +1,27 @@
+  464  mkdir -p Actividades/"Deportes de equipo" Actividades/"Deportes acuaticos" Actividades/"Deportes extremos" Actividades/"Deportes de mesa" Actividades/"Deportes mentales"
+  465  touch Actividades/"Deportes de equipo"/Basquet
+  466  touch Actividades/"Deportes mentales"/Ajedrez.txt
+  467  touch Actividades/"Deportes de mesa"/"Ping pong"
+  468  ls -R
+  469  rm -r "Deportes extremos"
+  470  rm "Deportes extremos"
+  471  pwd
+  472  git init
+  473  git remote add origin https://github.com/LiMar2022/Checkpoint_I_Gomez_Lina.git
+  474  git remote -v
+  475  cd Actividades/
+  476  rmdir "Deportes extremos"
+  477  pwd
+  478  git init
+  479  git remote add origin https://github.com/LiMar2022/Checkpoint_I_Gomez_Lina.git
+  480  git remote -v
+  481  git add .
+  482  git status
+  483  git commit -m "Subiendo las carpetas de deportes con archivos en su interior"
+  484  git push origin main
+  485  history
+  486  history
+  487  cd Actividades/
+  488  mkdir "Comandos utilizados"
+  489  touch Comandos\ utilizados/comandos.txt
+  490  history > Comandos\ utilizados/comandos.txt 
